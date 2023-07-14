@@ -1,0 +1,147 @@
+@media screen and (width <=768px) {
+
+    .big_feature_section {
+
+
+        background-color: rgb(219, 215, 215);
+        width: 100vw;
+        padding: 8px 16px;
+        display: grid;
+        justify-content: space-around;
+        height: 1000px;
+        grid-template-rows: repeat(4, 23%);
+        row-gap: 2%;
+        grid-template-columns: repeat(2, 45%);
+
+    }
+
+
+
+    .card_img {
+        height: 75%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+@media screen and (width <=654px) {
+    .left_sub_header {
+        font-size: x-small;
+    }
+
+    .right_sub_header {
+        font-size: x-small;
+    }
+
+}
+
+@media screen and (width <=425px) {
+
+
+    .location_logo {
+        visibility: collapse;
+        width: 0%;
+    }
+
+    .amazon_logo {
+        width: 25%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .search_bar {
+        width: 5000px;
+    }
+
+    .Accounts {
+        width: 0%;
+        visibility: hidden;
+    }
+
+    .right_part {
+        width: 30%;
+        justify-content: space-around;
+    }
+
+    .cart {
+        width: 50%;
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        justify-content: space-evenly;
+        justify-content: center;
+        color: var(--textcolor);
+    }
+
+    .cart_text {
+        font-size: small;
+        height: 100%;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left_sub_header {
+        width: 60%;
+        font-size: x-small;
+    }
+
+    .right_sub_header {
+        width: 25%;
+        font-size: x-small;
+    }
+
+    .hamburger_menu {
+        flex-direction: row;
+        width: 80px;
+    }
+
+    .hero_section {
+        background-size: cover;
+    }
+
+    .hero_text_area {
+        word-wrap: normal;
+
+    }
+
+    .main_footer {
+        width: 100vw;
+        background-color: var(--secondaryColor);
+        padding: 20px 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+
+    .col_header {
+        width: 100%;
+        padding: 8px;
+        color: aliceblue;
+        font-weight: bolder;
+
+        text-align: center;
+
+    }
+
+    .col_content {
+        width: 100%;
+        padding: 8px;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .footer_links_col1,
+    .footer_links_col2,
+    .footer_links_col3 {
+        width: 100%;
+        gap: 10px;
+
+
+    }
+}
